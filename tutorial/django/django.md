@@ -225,7 +225,7 @@ Finally, the most rewarding outcome of this course is that you will learn:
 
 <p>Get introduced to Django, its history, its community, and its key features.</p>
 
-![alt text](image.png)
+![alt text](images/image.png)
 
 <h4>Meet Django</h4>
 <p>
@@ -264,7 +264,7 @@ Some features that make Django an ideal framework for web application developmen
 <p>
 Spotify contains a vast amount of data and enables users to listen to music on any device. To handle this, Spotify uses Python alongside Django.
 </p>
-<img src=image-1.png/>
+<img src=images/image-1.png/>
 
 
 #### Dropbox
@@ -272,7 +272,7 @@ Spotify contains a vast amount of data and enables users to listen to music on a
 With Django, Dropbox stores and shares files, synchronizes accounts across multiple devices, and provides file histories.
 </p>
 
-![alt text](image-2.png)
+![alt text](images/image-2.png)
 
 #### Instagram
 
@@ -280,7 +280,7 @@ With Django, Dropbox stores and shares files, synchronizes accounts across multi
 Instagram uses many of the tools available with Django, including Sentry, an open source Django app for monitoring and Python error reporting. Instagram features the world’s largest deployment of the Django web framework.
 </p>
 
-![alt text](image-3.png)
+![alt text](images/image-3.png)
 
 #### Mozilla
 
@@ -288,7 +288,7 @@ Instagram uses many of the tools available with Django, including Sentry, an ope
 Mozilla uses Python and Django for managing high traffic and improving efficiency. Today, Firefox browser add-ons and the Mozilla support site are built with Django.
 </p>
 
-![alt text](image-4.png)
+![alt text](images/image-4.png)
 
 #### Pinterest
 
@@ -296,7 +296,7 @@ Mozilla uses Python and Django for managing high traffic and improving efficienc
 With Django, Pinterest ensures excellent performance and the ability to scale effectively while retaining performance, allowing Pinteresters to follow each other and share boards and pins.
 </p>
 
-![alt text](image-5.png)
+![alt text](images/image-5.png)
 
 #### National Geographic
 
@@ -304,7 +304,7 @@ With Django, Pinterest ensures excellent performance and the ability to scale ef
 National Geographic has used Django to build a custom CMS to manage the content on their website, from images to advertisements to modules.
 </p>
 
-![alt text](image-6.png)
+![alt text](images/image-6.png)
 
 
 ## Django Design Pattern
@@ -319,7 +319,7 @@ In a traditional data-driven website, a web application waits for HTTP requests 
 Django web applications typically group the code that handles each of these steps into separate files.
 </p>
 
-![alt text](image-7.png)
+![alt text](images/image-7.png)
 
 <ul>
 <li><b>URLs:</b> While it is possible to process requests from every single URL via a single function, it is much more maintainable to write a separate view function to handle each resource. A URL mapper is used to redirect HTTP requests to the appropriate view based on the request URL. The URL mapper can also match particular patterns of strings or digits that appear in a URL, and pass these to a view function as data.</li>
@@ -444,7 +444,7 @@ In this example, startapp is the keyword to create the application and first_app
 
 The following files will be included in the first_app directory:
 
-![alt text](image-8.png)
+![alt text](images/image-8.png)
 
 
 These files are:
@@ -558,7 +558,7 @@ For example, in the mini-application given below, we have specified two static r
 
 📌 NOTE: The path is a case-sensitive string. Therefore, /opentechz and /Opentechz are two different URLs.
 
-![alt text](image-9.png)
+![alt text](images/image-9.png)
 
 📍 Try this: After running the above code, select the URL given below the Run button to view the webpage in a separate tab. Append /opentechz to the URL and observe the output!
 
@@ -576,7 +576,7 @@ In the example below, we are using a variable path, <age>, where age is a variab
 
 📍 Try this: After running the code, select the URL given below the Run button to view the webpage in a separate tab. Append /123 or /18 to the URL and observe the output!
 
-![alt text](image-10.png)
+![alt text](images/image-10.png)
 
 first_project/urls.py file <br>
   At line #7, we passed a variable by the name of age in angle brackets.
@@ -610,9 +610,9 @@ NOTE: For more details on UUID objects in Python, please refer to their <a href=
 
 📍 Try this: After running the application, open it in a separate tab using the URL given. Append “/3” to the URL and observe the output. Try with different numbers as well!
 
-![alt text](image-11.png)
+![alt text](images/image-11.png)
 
-![alt text](image-12.png)
+![alt text](images/image-12.png)
 
 #### first_project/urls.py file
 - At line #7, we passed a variable by the name of num in angle brackets, also combined with an int path converter, which will convert the string into an integer.
@@ -626,7 +626,7 @@ NOTE: For more details on UUID objects in Python, please refer to their <a href=
 📍 Try this: You must have already tested the above path by appending integers. Now try to test it by appending a random string.
 
 
-![alt text](image-13.png)
+![alt text](images/image-13.png)
 
 
 
