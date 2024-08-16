@@ -1,6 +1,6 @@
 # 🐍 Python Mastery Repository 🚀
 
-![Python Logo](https://www.python.org/community/logos/python-logo-master-v3-TM.png)
+![Python Logo](https://s3.dualstack.us-east-2.amazonaws.com/pythondotorg-assets/media/community/logos/python-logo-only.png)
 
 Welcome to the **Python Mastery** repository! This repository is your go-to resource for learning Python from scratch and mastering advanced topics. Whether you're just starting out or looking to deepen your Python skills, this repository provides structured learning paths, in-depth tutorials, hands-on exercises, and real-world projects. Let’s dive into the world of Python development! 💻
 
