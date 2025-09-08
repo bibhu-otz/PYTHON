@@ -1,6 +1,6 @@
-'''
+```
  Write a Python program to determine if a variable is defined or not.
-'''
+```
 # Try to execute a block of code.
 try:
   x = 1
